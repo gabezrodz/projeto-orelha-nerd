@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto Condensed", sans-serif    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+/* Headder */
+
+header {
+    background: linear-gradient(90deg, #ee9ca7, #ffdde1, #ee9ca7);
+}
+
+.h-container-1{
+    display:flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.logo1-box{
+    order:0;
+    flex:2;
+}
+
+.logo-1-flex{
+    display: flex;  
+    justify-content: center; 
+}
+
+.logo-1{
+    width: 55%;
+    border-radius: 50%;
+    border: 5px solid black;
+    /* margin-top: 15px; */
+}
+.banner-black-box{
+    order: 1;
+    flex: 3;
+}
+
+.banner-black-flex{
+    display: flex;  
+    justify-content: center; 
+}
+
+.banner-black{
+    max-width: 85%;
+    margin-right: 80px;
+    box-shadow: -10px 10px 5px rgb(0 0 0 / 75%);
+}
+
+
+.banner-black:hover{
+    box-shadow: -15px 20px 20px rgba(0, 0, 0, 0.45); 
+    transform: scale(1.05);
+    transition: 500ms;
+}
+
+
+.nav-box{
+    display: flex;
+    justify-content: center;
+}
+
+ nav ul {
+    list-style: none;
+    display: inline-flex;
+    margin: 25px 0px;
+}
+
+.nav-font{
+    border: solid 3px rgb(19, 19, 19);
+    border-radius: 35px;
+    background-color: rgb(255, 254, 252);
+    text-decoration: none;
+    padding: 5px 17px;
+    font-size:25px;
+    font-weight: bold;
+    color: black;
+ }
+
+.nav-headder ul li{
+    padding: 0px 3px;
+}
+
+.nav-headder ul li:hover{
+    transform: scale(1.05);
+    transition: 400ms;   
+}
+
+.nav-font:hover{
+    background-color: rgba(219, 84, 208, 0.925);
+    color: white;
+    transition: 250ms;
+}
+
+/* Footer */
+
+footer {
+    background: linear-gradient(90deg, #ee9ca7, #ffdde1, #ee9ca7);
+}
+
+
+
+.f-container {
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box1{
+    max-width: 35%;
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.box3 {
+    max-width: 35%;
+    
+}
+
+.box3 ul {
+    display: flex;
+}
+
+
+.box1 .logo-footer {
+    width: 40%;
+}
+
+.box2 h2:hover{
+    /* background-color: #ade0bd; */
+    /* color: white;
+    transition: 250ms; */
+}
+.box2 h2{
+    font-size:20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 5px 5px;
+    background-color:#dff0a2;
+}
+
+.box2 h2:hover{
+    background-color:#9ae588 ;
+    /* color: white;
+    transition: 250ms; */
+    transform: scale(1.15);
+    transition: 400ms;   
+}
+
+.redes-sociais{
+    width: 60%;
+}
+
+
+footer section h3{
+    text-align: center;
+    padding: 20px;
+
+}
