@@ -28,6 +28,7 @@ h1 {
 
 .container-main{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
