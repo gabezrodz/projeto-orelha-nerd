@@ -38,5 +38,26 @@
         font-size: 15px;
     
     }
+
+    .box1 .logo-footer{
+        width: 90%;
+
+    }
+
+    .box2{
+        margin: 0px 35px 1px -35px;
+    }
+
+    footer section h3{
+        font-size: 15px;
+    }
+
+    .box3{
+        max-width: 80%;
+    }
+
+    .redes-sociais{
+        width: 70%;
+        margin: 10px 0px -10px 0px;
+    }
 }
-  

@@ -4,7 +4,14 @@
     box-sizing: border-box;
     font-family:"Roboto Condensed", sans-serif    
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
+ul {
+    list-style: none;
+}
 /* Headder */
 
 header {
@@ -46,6 +53,7 @@ header {
 .banner-black{
     max-width: 85%;
     margin-right: 80px;
+    box-shadow: -10px 10px 5px rgb(0 0 0 / 75%);
 }
 
 
@@ -97,4 +105,70 @@ header {
 
 footer {
     background: linear-gradient(90deg, #ee9ca7, #ffdde1, #ee9ca7);
+}
+
+
+
+.f-container {
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box1{
+    max-width: 35%;
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.box3 {
+    max-width: 35%;
+    
+}
+
+.box3 ul {
+    display: flex;
+}
+
+
+.box1 .logo-footer {
+    width: 40%;
+}
+
+.box2 h2:hover{
+    /* background-color: #ade0bd; */
+    /* color: white;
+    transition: 250ms; */
+}
+.box2 h2{
+    font-size:20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 5px 5px;
+    background-color:#dff0a2;
+}
+
+.box2 h2:hover{
+    background-color:#9ae588 ;
+    /* color: white;
+    transition: 250ms; */
+    transform: scale(1.15);
+    transition: 400ms;   
+}
+
+.redes-sociais{
+    width: 60%;
+}
+
+
+footer section h3{
+    text-align: center;
+    padding: 20px;
+
 }
