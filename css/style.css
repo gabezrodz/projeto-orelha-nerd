@@ -1,0 +1,50 @@
+@import url(style-hdr-ftr.css);
+@import url(style-responsive.css);
+@import url(style-responsive-hdr-ftr.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Orbitron", sans-serif    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+body{
+    background: linear-gradient(90deg,#9ae588, #dff0a2, #9ae588);  
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container-main{
+    display: flex;
+    justify-content: center;
+}
+
+
+.box-produtos{
+    width: 80%;
+    background-color: white;
+    width: 250px;
+    height: 350px; 
+    border: 5px solid;
+    margin: 30px ; 
+    margin-bottom: 50px;
+    box-shadow: -10px 10px 5px rgb(0 0 0 / 75%);
+}
+
+.box-produtos:hover{
+    box-shadow: -15px 20px 20px rgba(0, 0, 0, 0.45);
+    transform: scale(1.15);
+    transition: 400ms;   
+}

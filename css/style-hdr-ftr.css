@@ -1,8 +1,12 @@
+@import url(style.css);
+@import url(style-responsive.css);
+@import url(style-responsive-hdr-ftr.css);
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:"Roboto Condensed", sans-serif    
+    font-family:"Orbitron", sans-serif    
 }
 a{
     text-decoration: none;
@@ -16,6 +20,7 @@ ul {
 
 header {
     background: linear-gradient(90deg, #ee9ca7, #ffdde1, #ee9ca7);
+    border-bottom: solid 3px;
 }
 
 .h-container-1{
@@ -96,8 +101,7 @@ header {
 }
 
 .nav-font:hover{
-    background-color: rgba(219, 84, 208, 0.925);
-    color: white;
+    background-color: #dff0a2;
     transition: 250ms;
 }
 
@@ -105,6 +109,7 @@ header {
 
 footer {
     background: linear-gradient(90deg, #ee9ca7, #ffdde1, #ee9ca7);
+    border-top: solid 3px;
 }
 
 
@@ -117,36 +122,32 @@ footer {
     flex-wrap: wrap;
 }
 
-.box1{
+.f-box1{
     max-width: 35%;
     display: flex;
     justify-content: center;
 }
-.box2{
+.f-box2{
     max-width: 30%;
     display: flex;
     justify-content: center;
 }
-.box3 {
+.f-box3 {
     max-width: 35%;
     
 }
 
-.box3 ul {
+.f-box3 ul {
     display: flex;
 }
 
 
-.box1 .logo-footer {
+.f-box1 .logo-footer {
     width: 40%;
 }
 
-.box2 h2:hover{
-    /* background-color: #ade0bd; */
-    /* color: white;
-    transition: 250ms; */
-}
-.box2 h2{
+
+.f-box2 h2{
     font-size:20px;
     border: 3px solid black;
     border-radius: 15px;
@@ -154,7 +155,7 @@ footer {
     background-color:#dff0a2;
 }
 
-.box2 h2:hover{
+.f-box2 h2:hover{
     background-color:#9ae588 ;
     /* color: white;
     transition: 250ms; */
@@ -166,9 +167,15 @@ footer {
     width: 60%;
 }
 
+.gbr-logo{
+    border-left: 3px solid;
+    padding-left: 10px;
+   
+}
 
 footer section h3{
     text-align: center;
     padding: 20px;
 
 }
+

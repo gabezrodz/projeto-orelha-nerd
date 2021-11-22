@@ -1,4 +1,9 @@
 @import url(style.css);
+@import url(style-hdr-ftr.css);
+@import url(style-responsive.css);
+
+
+
 
 @media only screen  and (max-width: 1024px) { 
 
@@ -35,16 +40,16 @@
         padding: 0px 2px;
     }
     .nav-font{
-        font-size: 15px;
-    
+        font-size: 14px;
+        padding: 5px 8px;
     }
 
-    .box1 .logo-footer{
+    .f-box1 .logo-footer{
         width: 90%;
 
     }
 
-    .box2{
+    .f-box2{
         margin: 0px 35px 1px -35px;
     }
 
@@ -52,7 +57,7 @@
         font-size: 15px;
     }
 
-    .box3{
+    .f-box3{
         max-width: 80%;
     }
 
@@ -60,4 +65,12 @@
         width: 70%;
         margin: 10px 0px -10px 0px;
     }
+
+    .gbr-logo{
+        border-left: none;
+        padding-left: 0px;
+    }
+
+    
 }
+
