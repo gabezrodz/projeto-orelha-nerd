@@ -230,10 +230,17 @@ h1 {
 }
 
 button {
-    padding: 20px;
-    font-size: 25px;
+    padding: 15px 80px;
+    font-size: 35px;
     border: solid 3px black;
-    border-radius: 40px;
+    border-radius: 50px;
     background: #f58d0cc2;
+}
+
+button:hover {
+    background: #9dff41e7;
+    transition: 500ms;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
