@@ -23,7 +23,8 @@ body{
 
 h1 {
     text-align: center;
-    margin: 20px 0;
+    margin: 20px 10px;
+    font-size: 35px;
 }
 
 .container-main{
