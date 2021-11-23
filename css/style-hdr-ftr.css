@@ -19,8 +19,9 @@ ul {
 /* Headder */
 
 header {
-    background: linear-gradient(90deg, #ee9ca7, #ffdde1, #ee9ca7);
+    background: url(../img/logos/bg3.png) ;
     border-bottom: solid 3px;
+    background-size: contain;
 }
 
 .h-container-1{
@@ -144,6 +145,8 @@ footer {
 
 .f-box1 .logo-footer {
     width: 40%;
+    border: 5px solid black;
+    border-radius: 35%;
 }
 
 
@@ -152,11 +155,11 @@ footer {
     border: 3px solid black;
     border-radius: 15px;
     padding: 5px 5px;
-    background-color:#dff0a2;
+    background-color:white;
 }
 
 .f-box2 h2:hover{
-    background-color:#9ae588 ;
+    background-color:#dff0a2 ;
     /* color: white;
     transition: 250ms; */
     transform: scale(1.15);
