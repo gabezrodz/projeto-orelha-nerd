@@ -3,7 +3,24 @@
 @import url(style-responsive-hdr-ftr.css);
 
 @media only screen  and (max-width: 1024px) { 
-    
+    .box-pg-produtos{
+        width: 300px;
+    }
+
+    .img-card-produto-pg{
+        height: 320px;
+    } 
+    .box-pagamento{
+        height: 585px;
+    }
+    .box-descricao{
+        padding: 10px;
+    }
+
+    button {
+        font-size: 30px;
+        padding: 20px 50px;
+    }
 }
 
 @media only screen  and (max-width: 768px) { 
@@ -12,9 +29,93 @@
         flex-wrap: wrap ;
     }
 
+    .box-pg-produtos{
+        width: 300px;
+    }
+
+    .box-pg-produtos:hover{
+       
+        transform: scale(1.0);
+    }
+
+    .img-card-produto-pg{
+        height: 320px;
+        
+    }
     
+    .box-pagamento{
+        height: 800px;
+    }
+
+    .box-pagamento div {
+        font-size: 20px;
+    }
+
+    .box-pagamento div p{
+        font-size: 15px;
+    }
+
+    .box-pagamento div span{
+        font-size: 18px;
+        margin: -5px;
+    }
+
+    .box-pagamento-banner{
+        max-width: 100%;
+    }
+
+    .pagamento-fonte{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .pagamento-icones{
+        max-width: 100%;
+    }
+
+    .pagamento-icones img{
+        width: 10%;
+    }
+
+    .box-frete{
+        max-width: 100%;
+    }
+
+    .box-frete-flex{
+        flex-direction: column;
+    }
+
+    .frete-fonte{
+        font-size: 24px;
+    }
+
+    .box-nome-produto h1{
+        font-size: 30px;
+    }
+    
+    button {
+        font-size: 35px;
+        padding: 40px 100px;
+        border-radius: 65px;
+    }
 }
 
 @media only screen  and (max-width: 480px) {
+    
+    .pagamento-icones img{
+        width: 15%;
+    }
 
+    button {
+        padding: 20px;
+        font-size: 25px;
+        border: solid 3px black;
+        border-radius: 40px;
+        background: #f58d0cc2;
+    }
+
+    .box-pagamento{
+        height: 850px;
+    }
+    
 }
