@@ -130,6 +130,12 @@ h1 {
     box-shadow: -10px 10px 5px rgb(0 0 0 / 75%);
  }
 
+ .titulo-pg h1 span{
+   
+    color: #f7248e;
+    text-decoration: line-through;
+ }
+
  .container-pagamento{
      display: flex;
      justify-content: center;
