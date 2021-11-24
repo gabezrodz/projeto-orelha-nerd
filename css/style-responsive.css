@@ -150,6 +150,7 @@
         width: 80%;
         margin: 0px;
         margin-top: 35px;
+        height: 335px;
     }
     
     .box-mapa{
@@ -166,3 +167,10 @@
     }
     
 }
+
+@media only screen  and (max-width: 375px){
+    .box-pagamento{
+        height: 800px;
+    }
+}
+
