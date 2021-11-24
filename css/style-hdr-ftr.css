@@ -127,6 +127,7 @@ footer {
     max-width: 35%;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .f-box2{
     max-width: 30%;
@@ -143,7 +144,7 @@ footer {
 }
 
 
-.f-box1 .logo-footer {
+.f-box1  a .logo-footer {
     width: 40%;
     border: 5px solid black;
     border-radius: 35%;
