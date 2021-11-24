@@ -21,6 +21,11 @@
         font-size: 30px;
         padding: 20px 50px;
     }
+
+    .box-texto-video p{
+        padding: 5px;
+        font-size: 23px;
+    }
 }
 
 @media only screen  and (max-width: 768px) { 
@@ -98,6 +103,16 @@
         padding: 40px 100px;
         border-radius: 65px;
     }
+
+    .container-video{
+        
+        flex-wrap: wrap;
+    }
+
+    .box-texto-video p{
+        padding: 15px;
+        font-size: 20px;
+    }
 }
 
 @media only screen  and (max-width: 480px) {
@@ -113,9 +128,35 @@
         border-radius: 40px;
         background: #f58d0cc2;
     }
-
+    .titulo-sobre{
+        font-size: 25px;
+    }
     .box-pagamento{
         height: 800px;
+    }
+    .box-video{
+        width: 80%;
+        margin: 0px;
+        
+    }
+
+    .box-texto-video{
+        width: 80%;
+        margin: 0px;
+        margin-top: 35px;
+    }
+    
+    .box-mapa{
+        margin-top: -20px;
+    }
+    
+    .box-texto-mapa{
+        width: 80%;
+    }
+
+    .box-texto-mapa h2{
+        padding: 20px;
+        font-size: 25px;
     }
     
 }
