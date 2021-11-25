@@ -19,7 +19,11 @@ O site opera nas seguintes dimensões de telas:
 Os os textos, dados e imagens utilizadas no site são de direitos da marca Orelha N3rd, e todos foram previamente autorizados para serem usados no projeto.
 
 ### **Status do projeto**:
-Atualmente, o projeto se encontra finalizado.
+ Atualmente, o projeto se encontra finalizado com as seguintes funcionalidades:
+- Menu de filtragem por tipo de produto;
+- HTML e CSS separados como na dito na orientação do projeto;
+- Site responsivo;
+- Todas as ancoragens levam  a alguma página;
 
 ### **Site desenvolvido por:**
 - Gabriel R. Rodrigues
