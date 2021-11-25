@@ -26,6 +26,10 @@
         padding: 5px;
         font-size: 23px;
     }
+
+    .box-pagamento{
+        height: 700px;
+    }
 }
 
 @media only screen  and (max-width: 768px) { 
@@ -170,7 +174,7 @@
 
 @media only screen  and (max-width: 375px){
     .box-pagamento{
-        height: 800px;
+        height: 850px;
     }
 }
 
